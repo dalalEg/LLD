@@ -13,6 +13,12 @@ This repository contains my personal solutions to Low-Level Design (LLD) problem
 
 ---
 
+## 🚧 Known Limitations
+
+Currently, the implementation does **not use atomic operations** or any built-in synchronization mechanisms, which means it is **not thread-safe**. If accessed concurrently in a multithreaded environment, race conditions may occur. Future updates will explore thread-safe design patterns using synchronization primitives to ensure reliability under concurrent access.
+
+---
+
 ## ✅ Completed Projects
 
 | Problem            | Status       | Description                                    |
